@@ -1,0 +1,2 @@
+module FunnyHelper
+end
