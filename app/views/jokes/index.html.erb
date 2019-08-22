@@ -8,4 +8,8 @@
   <br />
   <h2>- <i><%= @joke.comedian %></i></h2>
   <br />
+  <%= link_to "Tell another one!", root_path, class: 'another-one' %>
 </div>
+<br /><br />
+<div class="text-center col-10 offset-1 new-joke">
+  <%= link_to 'Add your best joke here!', new_joke_path %>
