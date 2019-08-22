@@ -1,13 +1,31 @@
 @import "bootstrap";
 
 body {
-  background: black;
+  background: image_url('bg.png');
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed",
+  "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #000000;
+  -webkit-box-shadow: 1px 1px 2px 0 #000000;
+  box-shadow: 1px 1px 2px 0 #000000;
+  background: #3f4448;
+  border: 1px solid #000000;
+  border-color: #000000 #000000 #000000 #000000;
+  padding: 10px;
 }
 
 h1 {
-  color: red;
+  color: white;
 }
 
 h2 {
   color: white;
+}
+
+.title h1 h2 {
+  color: white;
+  text-shadow: 2px 2px 1px black;
+
 }

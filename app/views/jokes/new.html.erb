@@ -1,0 +1,11 @@
+<div class="booyah-box col-10 offset-1 text-center">
+  <h1>Got a Joke? I want to hear it.</h1>
+  <br /><br />
+  <%= simple_form_for @joke do |f| %>
+    <h2><%= f.input :joke %></h2>
+    <br />
+    <h2><%= f.input :comedian %></h2>
+    <br /><br />
+    <%= f.submit 'Submit', class: 'btn btn-secondary' %>
+  <% end %>
+</div>
